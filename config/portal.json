@@ -1,0 +1,86 @@
+{
+  "slug": "security-culture-heatmap-portal",
+  "title": "Security Culture Heatmap Portal",
+  "short_name": "SCHP",
+  "tagline": "A culture analytics portal for visualizing maturity, norms, leadership signals, and risk-aware behaviors.",
+  "book": {
+    "title": "Artificial Intelligence for Security Culture Transformation",
+    "author": "Musaab Hasan",
+    "url": "https://www.amazon.com/Artificial-Intelligence-Security-Culture-Transformation/dp/3639876954",
+    "alignment": "Appendix A: Security Culture Assessment Tools",
+    "theme": "Culture maturity, leadership modeling, social norms, assessment evidence, and heatmap-driven improvement."
+  },
+  "dimensions": [
+    {
+      "key": "leadership_modeling",
+      "label": "Leadership Modeling",
+      "description": "Measures visible secure behavior and sponsorship from leaders.",
+      "weight": 1.2
+    },
+    {
+      "key": "shared_responsibility",
+      "label": "Shared Responsibility",
+      "description": "Tracks whether security is treated as everyone's role.",
+      "weight": 1.1
+    },
+    {
+      "key": "psychological_safety",
+      "label": "Psychological Safety",
+      "description": "Measures comfort reporting mistakes, concerns, and near misses.",
+      "weight": 1.0
+    },
+    {
+      "key": "security_norms",
+      "label": "Security Norms",
+      "description": "Assesses whether secure behavior is socially reinforced.",
+      "weight": 1.15
+    },
+    {
+      "key": "learning_orientation",
+      "label": "Learning Orientation",
+      "description": "Tracks post-incident learning and continuous improvement.",
+      "weight": 1.0
+    },
+    {
+      "key": "maturity_progression",
+      "label": "Maturity Progression",
+      "description": "Measures movement across security culture maturity levels.",
+      "weight": 1.05
+    }
+  ],
+  "workflows": [
+    "Assess culture dimensions by department or stakeholder group.",
+    "Generate heatmaps that highlight uneven maturity and hidden weak spots.",
+    "Prioritize interventions by cultural risk and business criticality.",
+    "Reassess quarterly and document movement with evidence."
+  ],
+  "initiatives": [
+    {
+      "title": "Quarterly culture pulse",
+      "owner": "Risk Office",
+      "status": "active",
+      "priority": "high",
+      "impact_area": "maturity_progression"
+    },
+    {
+      "title": "Leadership signal campaign",
+      "owner": "Executive Office",
+      "status": "planned",
+      "priority": "high",
+      "impact_area": "leadership_modeling"
+    },
+    {
+      "title": "Psychological safety reporting push",
+      "owner": "Security Culture",
+      "status": "active",
+      "priority": "medium",
+      "impact_area": "psychological_safety"
+    }
+  ],
+  "evidence_examples": [
+    "Assessment score movement with dated evidence.",
+    "Documented behavior observations from simulations or operational workflows.",
+    "Leadership review notes, action owners, and completed improvement tasks."
+  ],
+  "accent": "#dc2626"
+}

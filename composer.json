@@ -1,0 +1,21 @@
+{
+  "name": "musaabhasan/security-culture-heatmap-portal",
+  "description": "A culture analytics portal for visualizing maturity, norms, leadership signals, and risk-aware behaviors.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Portal\\": "src/"
+    }
+  },
+  "scripts": {
+    "lint": "php -d display_errors=1 bin/lint.php",
+    "test": "php -d display_errors=1 bin/test.php"
+  }
+}
