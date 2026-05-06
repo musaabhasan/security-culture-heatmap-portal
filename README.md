@@ -1,4 +1,4 @@
-﻿# Security Culture Heatmap Portal
+# Security Culture Heatmap Portal
 
 A culture analytics portal for visualizing maturity, norms, leadership signals, and risk-aware behaviors.
 
